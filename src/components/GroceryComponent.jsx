@@ -40,7 +40,7 @@ const GroceryComponent = () => {
 
   return (
     <div className="grocery-buddy">
-      <h1>Grocery Buddy</h1>
+      <h1>Grocery Buddy!</h1>
       <div className='input-section'>
         <div className='input-container'>
           <input type="text" placeholder="Enter an item..." value={item} onChange={(event) => setItem(event.target.value)} ref={inputRef} />
